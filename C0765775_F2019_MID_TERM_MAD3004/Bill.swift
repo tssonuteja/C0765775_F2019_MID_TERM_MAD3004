@@ -6,6 +6,7 @@ class Bill{
     var billDate : String?
     enum Types {
         case Internet
-       
+       case Mobile
+        case Hydro
     }
 }
