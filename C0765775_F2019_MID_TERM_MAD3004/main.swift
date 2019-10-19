@@ -12,3 +12,6 @@ var h = Hydro(agencyName: "e POWER", unitsConsumed: 201, billAmount: 400, billId
 var c = Customers(customerId: "C342", firstName: "Sai teja", lastName: "Sunkari", email: "tssonute@gmail.com", billingDictionary : [i.billId!:i,m.billId!:m,h.billId!:h])
 
 var i1 = Internet(providerName: "bell", gbUsed: 12, billId: "B0bl1", billDate: result, billAmount: 98, billType: Bill.billing.Internet)
+
+var h1 = Hydro(agencyName: "Thermal POWER", unitsConsumed: 20, billAmount: 100, billId: "Tpe2", billType: Bill.billing.Hydro, billDate: result)
+
