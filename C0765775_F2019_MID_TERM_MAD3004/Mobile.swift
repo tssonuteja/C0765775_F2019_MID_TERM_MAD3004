@@ -27,7 +27,7 @@ class Mobile:Bill{
         print("Bill Type : \(billType)")
         print("Bill Date : \(billDate)")
         print("Manufacturer Name : \(manufacturerName)")
-        print("Plan Name : \(plan)")
+        print("Plan  Name : \(plan)")
         print("Mobile number : \( mobileNumber)")
         print("Minutes used : \( minutesUsed)")
         print("Bill Amount : \(billAmount)")
