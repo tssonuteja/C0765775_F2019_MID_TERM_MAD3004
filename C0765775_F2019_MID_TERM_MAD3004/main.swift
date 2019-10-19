@@ -39,7 +39,14 @@ for temp in custDictionary.values{
     }
 }
 
-
+for (k,v) in custDictionary{
+    
+    if(k == "C222")
+    {
+        v.iDisplay()
+    }
+    
+}
 
 
 
