@@ -8,5 +8,6 @@ class Customers:IDisplay{
     
     var customerId : String?
     var firstName: String?
+    var lastName: String?
    
 }
