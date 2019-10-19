@@ -5,15 +5,15 @@ class Bill{
     var billId : String?
     var billDate : String?
     var totalBillAmount : Float?
-    enum Types {
+    enum billing {
         case Internet
        case Mobile
         case Hydro
     }
     
-    var billType : Types?
+    var billType : billing?
     
-    init(billId : String , billDate : String, billType : Types) {
+    init(billId : String , billDate : String, billType : billing) {
         
         self.billId = billId
         self.billDate = billDate
