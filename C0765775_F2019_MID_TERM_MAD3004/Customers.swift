@@ -14,4 +14,7 @@ class Customers:IDisplay{
     
     var billingDictionary = Dictionary<String,Bill>()
    
+    init(customerId : String, firstName : String, lastName : String, email : String ,billingDictionary : Dictionary<String,Bill>)
+    {
+    }
 }
