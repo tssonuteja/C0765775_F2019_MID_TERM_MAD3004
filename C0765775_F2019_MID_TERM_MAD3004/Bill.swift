@@ -13,4 +13,7 @@ class Bill{
     
     var billType : Types?
     
+    init(billId : String , billDate : String, billType : Types) {
+    }
+    
 }
