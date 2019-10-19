@@ -2,9 +2,7 @@
 
 import Foundation
 class Customers:IDisplay{
-    func iDisplay() {
-        
-    }
+    
     
     var customerId : String?
     var firstName: String?
@@ -23,5 +21,13 @@ class Customers:IDisplay{
         self.billingDictionary = billingDictionary
         self.fullName = firstName + lastName
         
+    }
+    
+    
+    func iDisplay() {
+        print("***************************************")
+        print("Customer Id : \(customerId)")
+        print("Full Name : \(fullName)")
+                
     }
 }
