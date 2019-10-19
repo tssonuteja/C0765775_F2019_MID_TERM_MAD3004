@@ -1,6 +1,11 @@
 
 
 import Foundation
-class Customers{
+class Customers:IDisplay{
+    func iDisplay() {
+        
+    }
     
+    var customerId : String?
+   
 }
