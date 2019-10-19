@@ -17,6 +17,11 @@ class Customers:IDisplay{
     init(customerId : String, firstName : String, lastName : String, email : String ,billingDictionary : Dictionary<String,Bill>)
     {
         self.customerId = customerId
+        self.firstName = firstName
+        self.lastName = lastName
+        self.email = email
+        self.billingDictionary = billingDictionary
+        self.fullName = firstName + lastName
         
     }
 }
