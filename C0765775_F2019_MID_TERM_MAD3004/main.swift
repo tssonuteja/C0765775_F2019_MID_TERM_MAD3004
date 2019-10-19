@@ -30,3 +30,16 @@ for i in custDictionary.values{
     i.iDisplay()
     
 }
+
+for temp in custDictionary.values{
+    
+    for i1 in temp.billingDictionary.values
+    {
+        
+    }
+}
+
+
+
+
+
