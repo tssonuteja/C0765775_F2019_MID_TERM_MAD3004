@@ -24,3 +24,9 @@ var c2 = Customers(customerId: "C242", firstName: "joe", lastName: "kunyan", ema
 custDictionary.updateValue(c, forKey: c.customerId!)
 custDictionary.updateValue(c1, forKey: c1.customerId!)
 custDictionary.updateValue(c2, forKey: c2.customerId!)
+
+
+for i in custDictionary.values{
+    i.iDisplay()
+    
+}
