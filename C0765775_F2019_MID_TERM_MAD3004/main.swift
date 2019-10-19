@@ -41,7 +41,7 @@ for temp in custDictionary.values{
 
 for (k,v) in custDictionary{
     
-    if(k == "C222")
+    if(k == "C242")
     {
         v.iDisplay()
     }
