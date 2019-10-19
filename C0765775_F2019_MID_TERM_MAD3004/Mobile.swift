@@ -1,9 +1,16 @@
-//
-//  Mobile.swift
-//  C0765775_F2019_MID_TERM_MAD3004
-//
-//  Created by MacStudent on 2019-10-19.
-//  Copyright © 2019 MacStudent. All rights reserved.
-//
+
 
 import Foundation
+class Mobile:Bill{
+    
+    var pName : String?
+    var gbUsed : Float?
+    var billAmount : Float?
+    
+    init(pName : String, gbUsed : Float, billId : String, billDate : String,billAmount: Float, billType : Bill.billing) {
+        self.pName = pName
+        self.gbUsed = gbUsed
+        self.billAmount = billAmount
+        super.init(billId: billId, billDate: billDate, billType: billType)
+}
+}
