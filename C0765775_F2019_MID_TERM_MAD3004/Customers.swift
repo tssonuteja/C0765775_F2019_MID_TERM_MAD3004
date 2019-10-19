@@ -11,5 +11,7 @@ class Customers:IDisplay{
     var lastName: String?
     var fullName: String?
     var email: String?
+    
+    var billingDictionary = Dictionary<String,Bill>()
    
 }
