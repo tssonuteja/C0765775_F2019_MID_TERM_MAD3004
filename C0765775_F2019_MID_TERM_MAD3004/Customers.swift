@@ -28,6 +28,11 @@ class Customers:IDisplay{
         print("***************************************")
         print("Customer Id : \(customerId)")
         print("Full Name : \(fullName)")
-                
+        for i in billingDictionary.values
+        {
+            i.iDisplay()
+        }
+        
+        
     }
 }
