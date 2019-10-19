@@ -16,7 +16,7 @@ class Mobile:Bill{
 }
     
     override func iDisplay() {
-        print("***************************************")
+        print("*********************************")
         print("Bill Id : \(billId)")
         print("Bill Type : \(billType)")
         print("Bill Date : \(billDate)")
