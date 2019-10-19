@@ -1,7 +1,9 @@
 
 
 import Foundation
-class Bill{
+class Bill:IDisplay{
+    
+    
     var billId : String?
     var billDate : String?
     var totalBillAmount : Float?
@@ -19,5 +21,10 @@ class Bill{
         self.billDate = billDate
         self.billType = billType
     }
+    
+    func iDisplay() {
+        
+    }
+    
     
 }
