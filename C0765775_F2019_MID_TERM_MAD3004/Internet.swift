@@ -13,4 +13,15 @@ class Internet: Bill{
         super.init(billId: billId, billDate: billDate, billType: billType)
     }
     
+    override func iDisplay() {
+        print("*********************************")
+        print("Bill Id : \(billId)")
+        print("Bill Type : \(billType)")
+        print("Bill Date : \(billDate)")
+        print("Provider Name : \(pName)")
+        print("Data Used : \(gbUsed)")
+        print("Bill Amount : \(billAmount)")
+        
+    }
+    
 }
