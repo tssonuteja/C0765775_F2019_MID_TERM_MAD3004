@@ -1,6 +1,7 @@
 
 
 import Foundation
-protocal IDisplay{
- func idisplay()
+protocol IDisplay
+{
+ func iDisplay()
 }
