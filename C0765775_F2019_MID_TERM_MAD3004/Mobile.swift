@@ -20,4 +20,18 @@ class Mobile:Bill{
         super.init(billId: billId, billDate: billDate, billType: billType)
     }
     
+    
+    override func iDisplay() {
+        print("*************************************************")
+        print("Bill Id : \(billId)")
+        print("Bill Type : \(billType)")
+        print("Bill Date : \(billDate)")
+        print("Manufacturer Name : \(manufacturerName)")
+        print("Plan Name : \(plan)")
+        print("Mobile number : \( mobileNumber)")
+        print("Minutes used : \( minutesUsed)")
+        print("Bill Amount : \(billAmount)")
+        print("Internet Used : \(internetUsed)")
+        
+    }
 }
