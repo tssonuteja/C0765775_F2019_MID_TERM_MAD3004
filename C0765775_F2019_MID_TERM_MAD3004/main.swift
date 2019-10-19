@@ -19,3 +19,8 @@ var h1 = Hydro(agencyName: "Thermal POWER", unitsConsumed: 20, billAmount: 100, 
 
 var c1 = Customers(customerId: "C222", firstName: "Shank", lastName: "mitta", email: "saha123@gmail.com", billingDictionary : [i.billId!:i,m.billId!:m,h.billId!:h])
 var c2 = Customers(customerId: "C242", firstName: "joe", lastName: "kunyan", email: "joeqw123@gmail.com", billingDictionary : [i.billId!:i,m.billId!:m,h.billId!:h])
+
+
+custDictionary.updateValue(c, forKey: c.customerId!)
+custDictionary.updateValue(c1, forKey: c1.customerId!)
+
