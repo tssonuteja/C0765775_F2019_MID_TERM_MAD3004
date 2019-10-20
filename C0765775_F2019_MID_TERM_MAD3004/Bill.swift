@@ -20,6 +20,7 @@ class Bill:IDisplay{
         self.billId = billId
         self.billDate = billDate
         self.billType = billType
+        
     }
     
     func iDisplay() {
