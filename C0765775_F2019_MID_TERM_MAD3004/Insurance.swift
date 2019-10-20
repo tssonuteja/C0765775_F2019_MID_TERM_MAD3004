@@ -9,9 +9,9 @@ class Insurance: Bill{
         case Business
     }
     var Insurancetype : type?
-    
-    
-    
-    
-    
+    var provider : String?
+    var startDate: String?
+    var endDate: String?
+
+        
 }
